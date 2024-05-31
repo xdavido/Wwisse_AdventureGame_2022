@@ -1,3 +1,17 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2106907484	Music_Regions			\MusicStates\Music_Regions	
+
+State	ID	Name	State Group			Notes
+	608898761	Dungeon	Music_Regions			
+	748895195	None	Music_Regions			
+	1421251628	Woodlands	Music_Regions			
+	1850388778	Desert	Music_Regions			
+	3132368115	WwizardHouse	Music_Regions			
+	3160623154	Silent	Music_Regions			
+	3424056949	Nowhere	Music_Regions			
+	3945572659	Village	Music_Regions			
+	4122393694	Cave	Music_Regions			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
