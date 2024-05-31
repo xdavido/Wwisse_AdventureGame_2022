@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<RootPaths>
-		<ProjectRoot>../../../../../../../../Documents/WwiseProjects/AdventureGameWwise</ProjectRoot>
-		<SourceFilesRoot>../../../../../../../../Documents/WwiseProjects/AdventureGameWwise/.cache/Windows</SourceFilesRoot>
+		<ProjectRoot>../../../../../../../AdventureGameWwise</ProjectRoot>
+		<SourceFilesRoot>../../../../../../../AdventureGameWwise/.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>../../../../../../../../Documents/WwiseProjects/AdventureGameWwise/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>../../../../../../../AdventureGameWwise/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{1136ABF1-0DF5-8D48-B67C-F210250204C9}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{975EABE2-1406-2C60-9602-C25DDA300710}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
+				<File Id="116915332" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Destruction\BAS_Crate_Destroy_01.wav</ShortName>
+					<CachePath>SFX/Destruction/BAS_Crate_Destroy_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="193000617" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Destruction\Volcanic Boulder\Explosion.wav</ShortName>
+					<CachePath>SFX/Destruction/Volcanic Boulder/Explosion_10C4C929.wem</CachePath>
+				</File>
 				<File Id="300395557" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI\BAS_Button_Teleport.wav</ShortName>
 					<CachePath>SFX/UI/BAS_Button_Teleport_10C4C929.wem</CachePath>
@@ -33,6 +41,10 @@
 					<ShortName>UI\BAS_Inventory_Close.wav</ShortName>
 					<CachePath>SFX/UI/BAS_Inventory_Close_10C4C929.wem</CachePath>
 				</File>
+				<File Id="797852534" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Destruction\BAS_Destroy_Rock_01.wav</ShortName>
+					<CachePath>SFX/Destruction/BAS_Destroy_Rock_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="880895896" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI\BAS_Button_Open.wav</ShortName>
 					<CachePath>SFX/UI/BAS_Button_Open_10C4C929.wem</CachePath>
@@ -40,6 +52,10 @@
 				<File Id="893143628" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI\BAS_QuestRoll_Open.wav</ShortName>
 					<CachePath>SFX/UI/BAS_QuestRoll_Open_10C4C929.wem</CachePath>
+				</File>
+				<File Id="948369034" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Destruction\BAS_Crystals_Destroy.wav</ShortName>
+					<CachePath>SFX/Destruction/BAS_Crystals_Destroy_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1034926875" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI\BAS_Inventory_Scroll.wav</ShortName>
@@ -55,6 +71,26 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="4254124015" Name="Destruction_Container">
+					<MediaRefs>
+						<MediaRef Id="116915332"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="448719855" Name="Destruction_Crystal_Destroy">
+					<MediaRefs>
+						<MediaRef Id="948369034"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1999886838" Name="Destruction_Rock_Destroy">
+					<MediaRefs>
+						<MediaRef Id="797852534"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2541270269" Name="Destruction_VolcanicBoulder_Impact">
+					<MediaRefs>
+						<MediaRef Id="193000617"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="156563189" Name="UI_Button_Down">
 					<MediaRefs>
 						<MediaRef Id="468448618"/>
@@ -112,6 +148,14 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="152105657" Type="User" Language="SFX" Hash="{7D31F7BA-6BE3-2929-7FB0-7EDDF513E1A3}">
+			<ShortName>TitleScreen</ShortName>
+			<Path>TitleScreen.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="608898761" Type="User" Language="SFX" Hash="{DFABD7A2-F9D0-C9C2-2326-42C6302AB77A}">
+			<ShortName>Dungeon</ShortName>
+			<Path>Dungeon.bnk</Path>
+		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -125,6 +169,26 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
+		<SoundBank Id="1421251628" Type="User" Language="SFX" Hash="{D518FEAF-C1DD-2226-6684-0104385E9AE6}">
+			<ShortName>Woodlands</ShortName>
+			<Path>Woodlands.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1850388778" Type="User" Language="SFX" Hash="{7701DD4A-CC26-28AF-217D-E4FA8691C5B6}">
+			<ShortName>Desert</ShortName>
+			<Path>Desert.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2482365692" Type="User" Language="SFX" Hash="{F3EEE7FD-CD69-F9C7-646F-234E181DF680}">
+			<ShortName>PineForest</ShortName>
+			<Path>PineForest.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3945572659" Type="User" Language="SFX" Hash="{1957B6EA-C1D4-F60F-AFB9-CB4B3E5E3419}">
+			<ShortName>Village</ShortName>
+			<Path>Village.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4122393694" Type="User" Language="SFX" Hash="{353B88B9-76D9-19AE-CE56-C4CE12ABCE39}">
+			<ShortName>Cave</ShortName>
+			<Path>Cave.bnk</Path>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D9A1E40B-E084-6D38-38DA-DC2B212EF099}</FileHash>
+	<FileHash>{D0ECC443-AF78-77F8-5810-A07E510A1117}</FileHash>
 </SoundBanksInfo>

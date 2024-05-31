@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{72E121A0-11DA-461D-8A4B-CA53CBC44E26}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Destruction" ID="{72E121A0-11DA-461D-8A4B-CA53CBC44E26}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Destruction_Container" ID="{1BF4E5A7-92BE-426B-B00E-2007FA29B2DA}">
+					<ChildrenList>
+						<Action Name="" ID="{F3DCED4A-A06B-42E9-AAFD-7890AA1A2A1F}" ShortID="478888141">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_Crate_Destroy_01" ID="{8A2F8E7A-75E2-4EF2-AE55-4FC54B0F2239}" WorkUnitID="{C5DFDDC2-41C7-49B1-9231-13CE4E04A4B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Destruction_VolcanicBoulder_Impact" ID="{70DF383E-2015-4F1B-9700-8425ECDDEB1F}">
+					<ChildrenList>
+						<Action Name="" ID="{67FCC6AC-D21B-4440-97C2-D739FD30E241}" ShortID="144467352">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explosion" ID="{5047ADAC-F0EB-4C10-9959-DA80AE67951E}" WorkUnitID="{C5DFDDC2-41C7-49B1-9231-13CE4E04A4B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Destruction_Crystal_Destroy" ID="{5572FA50-5087-4F44-9B1D-A4C4BA54CB4D}">
+					<ChildrenList>
+						<Action Name="" ID="{F40FDB9D-2BAB-4591-B1AB-459D8B25FB74}" ShortID="131904437">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_Crystals_Destroy" ID="{5A74F491-3B21-4309-8A56-FC928FA86362}" WorkUnitID="{C5DFDDC2-41C7-49B1-9231-13CE4E04A4B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Destruction_Rock_Destroy" ID="{788FB559-B327-45FC-98A9-085C42E55592}">
+					<ChildrenList>
+						<Action Name="" ID="{9AFA2E9A-F977-465E-A025-FD09D4FF5A3F}" ShortID="374992121">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_Destroy_Rock_01" ID="{ACC954CB-2BA1-40FF-818B-09256656F6B4}" WorkUnitID="{C5DFDDC2-41C7-49B1-9231-13CE4E04A4B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

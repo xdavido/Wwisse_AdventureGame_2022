@@ -2,11 +2,11 @@
 <PlatformInfo>
 	<Platform Name="Windows" BasePlatform="Windows" Generator="2022.1.13.8454"/>
 	<RootPaths>
-		<ProjectRoot>../../../../../../../../Documents/WwiseProjects/AdventureGameWwise</ProjectRoot>
-		<SourceFilesRoot>../../../../../../../../Documents/WwiseProjects/AdventureGameWwise/.cache/Windows</SourceFilesRoot>
+		<ProjectRoot>../../../../../../../AdventureGameWwise</ProjectRoot>
+		<SourceFilesRoot>../../../../../../../AdventureGameWwise/.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>../../../../../../../../Documents/WwiseProjects/AdventureGameWwise/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>../../../../../../../AdventureGameWwise/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DefaultAlign>16</DefaultAlign>
 	<Settings>
@@ -28,5 +28,5 @@
 		<PrintObjectGuid>false</PrintObjectGuid>
 		<PrintObjectPath>false</PrintObjectPath>
 	</Settings>
-	<FileHash>{25AF1BF7-F0CF-1510-B295-CFDBBD38FB42}</FileHash>
+	<FileHash>{C971A26B-FD44-8F57-91D0-9195BD09621A}</FileHash>
 </PlatformInfo>
