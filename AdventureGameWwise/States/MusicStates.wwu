@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D523CEC6-1CF6-4C36-9A64-CA715783D46A}" SchemaVersion="110">
+	<States>
+		<WorkUnit Name="MusicStates" ID="{D523CEC6-1CF6-4C36-9A64-CA715783D46A}" PersistMode="Standalone"/>
+	</States>
+</WwiseDocument>
