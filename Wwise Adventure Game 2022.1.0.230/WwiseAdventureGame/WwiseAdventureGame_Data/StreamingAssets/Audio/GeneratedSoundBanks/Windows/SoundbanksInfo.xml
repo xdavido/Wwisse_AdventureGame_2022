@@ -901,11 +901,27 @@
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="608898761" Type="User" Language="SFX" Hash="{DFABD7A2-F9D0-C9C2-2326-42C6302AB77A}">
+		<SoundBank Id="608898761" Type="User" Language="SFX" Hash="{4C24E340-286B-71F5-BD2E-AE7E9AA65D67}">
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
+			<Media>
+				<File Id="585467131" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Background\BAS_amb_dungeon_day_background_loop_01.wav</ShortName>
+					<CachePath>SFX/Ambient_Background/BAS_amb_dungeon_day_background_loop_01_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4077685701" Name="Ambient_Region_Dungeon">
+					<MediaRefs>
+						<MediaRef Id="585467131"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6BAB5065-1414-9450-F3B3-62564A34723B}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -917,6 +933,9 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="3251833556" Name="Player_Weapon_Type">
 					<Switches>
@@ -943,26 +962,121 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1421251628" Type="User" Language="SFX" Hash="{D518FEAF-C1DD-2226-6684-0104385E9AE6}">
+		<SoundBank Id="1421251628" Type="User" Language="SFX" Hash="{67E7881B-E65A-35DC-B92E-ADC2C6525197}">
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
+			<Media>
+				<File Id="653666381" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Background\amb_forest_night_background_loop_04.wav</ShortName>
+					<CachePath>SFX/Ambient_Background/amb_forest_night_background_loop_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="987783520" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Background\BAS_amb_forest_day_background_loop_01.wav</ShortName>
+					<CachePath>SFX/Ambient_Background/BAS_amb_forest_day_background_loop_01_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1049266392" Name="Ambient_Region_Woodlands">
+					<MediaRefs>
+						<MediaRef Id="653666381"/>
+						<MediaRef Id="987783520"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1850388778" Type="User" Language="SFX" Hash="{7701DD4A-CC26-28AF-217D-E4FA8691C5B6}">
+		<SoundBank Id="1850388778" Type="User" Language="SFX" Hash="{1FFB7CF7-3D13-DA2E-5CBB-C45059ABC578}">
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
+			<Media>
+				<File Id="93751954" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Background\BAS_amb_desert_day_background_loop_01.wav</ShortName>
+					<CachePath>SFX/Ambient_Background/BAS_amb_desert_day_background_loop_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="238620586" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Background\BAS_amb_desert_night_background_loop_01.wav</ShortName>
+					<CachePath>SFX/Ambient_Background/BAS_amb_desert_night_background_loop_01_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3408705206" Name="Ambient_Region_Desert">
+					<MediaRefs>
+						<MediaRef Id="93751954"/>
+						<MediaRef Id="238620586"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2482365692" Type="User" Language="SFX" Hash="{F3EEE7FD-CD69-F9C7-646F-234E181DF680}">
+		<SoundBank Id="2482365692" Type="User" Language="SFX" Hash="{A97C317A-7652-722E-FA84-FA823EFE9DF8}">
 			<ShortName>PineForest</ShortName>
 			<Path>PineForest.bnk</Path>
+			<Media>
+				<File Id="805959256" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Background\BAS_amb_pineforest_night_background_loop_01.wav</ShortName>
+					<CachePath>SFX/Ambient_Background/BAS_amb_pineforest_night_background_loop_01_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="808171864" Name="Ambient_Region_PineForest">
+					<MediaRefs>
+						<MediaRef Id="805959256"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3945572659" Type="User" Language="SFX" Hash="{1957B6EA-C1D4-F60F-AFB9-CB4B3E5E3419}">
+		<SoundBank Id="3945572659" Type="User" Language="SFX" Hash="{F37C33C1-E3EA-6BC0-CEF4-695D75F3835C}">
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
+			<Media>
+				<File Id="819028764" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Background\BAS_amb_village_day_background_loop_01.wav</ShortName>
+					<CachePath>SFX/Ambient_Background/BAS_amb_village_day_background_loop_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="983740180" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Background\BAS_amb_village_night_background_loop_01.wav</ShortName>
+					<CachePath>SFX/Ambient_Background/BAS_amb_village_night_background_loop_01_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2752753183" Name="Ambient_Region_Village">
+					<MediaRefs>
+						<MediaRef Id="819028764"/>
+						<MediaRef Id="983740180"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4122393694" Type="User" Language="SFX" Hash="{353B88B9-76D9-19AE-CE56-C4CE12ABCE39}">
+		<SoundBank Id="4122393694" Type="User" Language="SFX" Hash="{B222E146-204B-5A6B-9272-2AD32A5B9E51}">
 			<ShortName>Cave</ShortName>
 			<Path>Cave.bnk</Path>
+			<Media>
+				<File Id="784216267" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambient_Background\BAS_amb_cave_background_LP.wav</ShortName>
+					<CachePath>SFX/Ambient_Background/BAS_amb_cave_background_LP_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1331382810" Name="Ambient_Region_Cave">
+					<MediaRefs>
+						<MediaRef Id="784216267"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6BBA3305-ACC1-AAD8-D63E-F419544BBC38}</FileHash>
+	<FileHash>{77E36779-0B93-E90D-1756-A362CA087F23}</FileHash>
 </SoundBanksInfo>

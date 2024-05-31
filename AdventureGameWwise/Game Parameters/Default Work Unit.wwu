@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{BA1ACCDD-0AD5-445A-A03B-D23FF5E9915D}" SchemaVersion="110">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{BA1ACCDD-0AD5-445A-A03B-D23FF5E9915D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{BA1ACCDD-0AD5-445A-A03B-D23FF5E9915D}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Time_of_Day" ID="{171950C9-9BC3-4E8D-A35F-DED04D838BC7}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="24"/>
+						<Property Name="Max" Type="Real64" Value="24"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

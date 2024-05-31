@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1331382810	Ambient_Region_Cave			\Ambient\Ambient_Region_Cave	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	784216267	BAS_amb_cave_background_LP	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Ambient_Background\BAS_amb_cave_background_LP_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\Ambient_Sounds\Ambient_TimeofDayCave\BAS_amb_cave_background_LP		14786892
+

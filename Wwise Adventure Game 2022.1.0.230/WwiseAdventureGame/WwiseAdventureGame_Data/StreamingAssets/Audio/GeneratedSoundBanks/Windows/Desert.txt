@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3408705206	Ambient_Region_Desert			\Ambient\Ambient_Region_Desert	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	93751954	BAS_amb_desert_day_background_loop_01	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Ambient_Background\BAS_amb_desert_day_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\Ambient_Sounds\Ambient_TimeofDayDesert\DayAmbienceDesert\BAS_amb_desert_day_background_loop_01		21299296
+	238620586	BAS_amb_desert_night_background_loop_01	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Ambient_Background\BAS_amb_desert_night_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\Ambient_Sounds\Ambient_TimeofDayDesert\NightAmbienceDesert\BAS_amb_desert_night_background_loop_01		11931232
+
