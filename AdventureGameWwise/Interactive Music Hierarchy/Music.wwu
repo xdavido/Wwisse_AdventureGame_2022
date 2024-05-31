@@ -702,9 +702,15 @@
 				</MusicSwitchContainer>
 				<MusicSwitchContainer Name="Music_Regions" ID="{C81C5643-3498-4D12-9436-490FA5647521}" ShortID="621003432">
 					<PropertyList>
+						<Property Name="Priority" Type="int16">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-3</Value>
+								<Value>-4</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -713,7 +719,10 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
+							<ObjectRef Name="Music" ID="{4382D5D1-9F0B-4D0C-ACAF-5F7C038EDC80}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Music_Aux" ID="{E2153519-45F1-4E7D-B6F1-8A87F048C8AB}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1604,6 +1613,9 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{DFF934C2-5766-4223-A0A2-512DA8ED2419}"/>
+					</PositioningInfo>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{9A154528-6EE7-47E8-AB5E-C33A6C236F29}">
 							<PropertyList>
@@ -1619,11 +1631,13 @@
 					</TransitionList>
 					<ArgumentList>
 						<ArgumentRef Name="Music_Regions" ID="{7CBEA521-B648-4965-819B-490B68DFADAA}"/>
+						<ArgumentRef Name="DayOrNight" ID="{2FB4A414-DC45-4661-8247-65DDA6A91163}"/>
 					</ArgumentList>
 					<EntryList>
 						<Entry>
 							<Path>
 								<PathElementRef Name="Cave" ID="{17DBD901-1224-4496-9E70-B36E77704E23}"/>
+								<PathElementRef Name="DayOrNight" ID="{2FB4A414-DC45-4661-8247-65DDA6A91163}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Cave" ID="{79DB8FFE-EB57-436E-AAC1-33DA8BE0135A}" WorkUnitID="{B3AF6C04-06ED-445C-9031-D69B42DAB658}" Platform="Linked"/>
@@ -1632,6 +1646,7 @@
 						<Entry>
 							<Path>
 								<PathElementRef Name="Desert" ID="{D9A3342B-33CD-48D6-A982-9EC903F8E7B1}"/>
+								<PathElementRef Name="DayOrNight" ID="{2FB4A414-DC45-4661-8247-65DDA6A91163}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Desert" ID="{0422CA55-AC18-46E6-8457-00FB3FE37B96}" WorkUnitID="{B3AF6C04-06ED-445C-9031-D69B42DAB658}" Platform="Linked"/>
@@ -1640,6 +1655,7 @@
 						<Entry>
 							<Path>
 								<PathElementRef Name="Village" ID="{406BBA15-9626-4E98-A403-F3748CB75FFC}"/>
+								<PathElementRef Name="DayOrNight" ID="{2FB4A414-DC45-4661-8247-65DDA6A91163}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Village" ID="{4E1C2BCD-AB8F-41BB-84F7-7EE334912D0D}" WorkUnitID="{B3AF6C04-06ED-445C-9031-D69B42DAB658}" Platform="Linked"/>
@@ -1648,6 +1664,7 @@
 						<Entry>
 							<Path>
 								<PathElementRef Name="WwizardHouse" ID="{F0CDB3EB-41D5-4598-9DC2-0294BF96D89E}"/>
+								<PathElementRef Name="DayOrNight" ID="{2FB4A414-DC45-4661-8247-65DDA6A91163}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Nowhere" ID="{D74AF4F4-2165-4E86-9623-AF481ECBE99A}" WorkUnitID="{B3AF6C04-06ED-445C-9031-D69B42DAB658}" Platform="Linked"/>
@@ -1656,9 +1673,28 @@
 						<Entry>
 							<Path>
 								<PathElementRef Name="Silent" ID="{0E83D75A-CB27-4F9B-A269-A49F266B10FC}"/>
+								<PathElementRef Name="DayOrNight" ID="{2FB4A414-DC45-4661-8247-65DDA6A91163}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Nowhere" ID="{D74AF4F4-2165-4E86-9623-AF481ECBE99A}" WorkUnitID="{B3AF6C04-06ED-445C-9031-D69B42DAB658}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Woodlands" ID="{C492FE3B-65EF-4BE5-BEF3-EED48EA89813}"/>
+								<PathElementRef Name="Day" ID="{3383C179-6B41-432B-B9BD-D60E49604EEF}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Woodlands_Day" ID="{CED8675F-0C4E-4503-9B0C-180FA6DEBE9E}" WorkUnitID="{B3AF6C04-06ED-445C-9031-D69B42DAB658}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Woodlands" ID="{C492FE3B-65EF-4BE5-BEF3-EED48EA89813}"/>
+								<PathElementRef Name="Night" ID="{BF2C1831-991F-4AE1-B8D5-C96346792612}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Woodlands_Night" ID="{37647A35-4A3C-4EA9-8E20-3B0FB1BCE373}" WorkUnitID="{B3AF6C04-06ED-445C-9031-D69B42DAB658}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

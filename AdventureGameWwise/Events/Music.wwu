@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Event Name="Music_Region" ID="{FDAC4F13-24AC-4E13-9459-F0C0F7A88792}">
 					<ChildrenList>
-						<Action Name="" ID="{5D021073-7ADA-4A44-BE5B-14C3614C641D}" ShortID="599819231">
+						<Action Name="" ID="{4953DC95-5817-46F6-93D0-CBDA0A3F103F}" ShortID="19403388">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Music_Regions" ID="{C81C5643-3498-4D12-9436-490FA5647521}" WorkUnitID="{B3AF6C04-06ED-445C-9031-D69B42DAB658}"/>

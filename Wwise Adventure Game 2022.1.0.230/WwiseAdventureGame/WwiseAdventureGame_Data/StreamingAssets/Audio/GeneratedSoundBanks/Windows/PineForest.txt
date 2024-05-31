@@ -5,5 +5,5 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	805959256	BAS_amb_pineforest_night_background_loop_01	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Ambient_Background\BAS_amb_pineforest_night_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\Ambient_Sounds\Ambient_TimeofDayPineForest\NightPineForest\BAS_amb_pineforest_night_background_loop_01		13829380
+	805959256	BAS_amb_pineforest_night_background_loop_01	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Ambient_Background\BAS_amb_pineforest_night_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient_Background\Ambient_Sounds\Ambient_TimeofDayPineForest\NightPineForest\BAS_amb_pineforest_night_background_loop_01		13829380
 
