@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1931500C-94E6-4191-81AA-DFD353F68727}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Player" ID="{1931500C-94E6-4191-81AA-DFD353F68727}" PersistMode="Standalone"/>
+		<WorkUnit Name="Player" ID="{1931500C-94E6-4191-81AA-DFD353F68727}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Player_WeaponImpact" ID="{E464AE55-AF21-441E-836C-A7EF8FB8B640}">
+					<ChildrenList>
+						<Action Name="" ID="{8CD68A44-68F3-4146-AAA8-B492807DC470}" ShortID="730373909">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Axe" ID="{DDD0493E-CF4B-4F7D-B5D0-3153136505AF}" WorkUnitID="{C5DFDDC2-41C7-49B1-9231-13CE4E04A4B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FC53C93A-B0F4-4CB2-943F-50CA81AB9239}" ShortID="800458587">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dagger" ID="{7A4CF65A-1C41-4B4A-9528-752EE06F2EC6}" WorkUnitID="{C5DFDDC2-41C7-49B1-9231-13CE4E04A4B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8D7B68C6-0698-4FA5-8F6A-C082AF62ED24}" ShortID="598290865">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hammer" ID="{2593AD74-3810-47EF-801C-9E39C9116075}" WorkUnitID="{C5DFDDC2-41C7-49B1-9231-13CE4E04A4B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0B3B3E13-38E8-444F-827C-6BF1241B70A6}" ShortID="891737678">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PickAxe" ID="{50158291-D951-4882-87EB-3D796F61CF29}" WorkUnitID="{C5DFDDC2-41C7-49B1-9231-13CE4E04A4B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CA397312-CCB0-40CD-8944-FC1E5CF3DF26}" ShortID="389965269">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sword" ID="{C5418BFA-6A6F-44D4-9E5A-1FC49265A6A1}" WorkUnitID="{C5DFDDC2-41C7-49B1-9231-13CE4E04A4B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

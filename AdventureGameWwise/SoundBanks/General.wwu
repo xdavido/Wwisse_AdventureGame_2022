@@ -6,6 +6,7 @@
 				<SoundBank Name="General" ID="{83597E0B-4460-4AA9-B579-59CBEB6ED68A}">
 					<ObjectInclusionList>
 						<ObjectRef Name="UI" ID="{D8A215B9-3667-40BE-B3F3-ACC8553782CF}" WorkUnitID="{D8A215B9-3667-40BE-B3F3-ACC8553782CF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player" ID="{1931500C-94E6-4191-81AA-DFD353F68727}" WorkUnitID="{1931500C-94E6-4191-81AA-DFD353F68727}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Destruction" ID="{72E121A0-11DA-461D-8A4B-CA53CBC44E26}" WorkUnitID="{72E121A0-11DA-461D-8A4B-CA53CBC44E26}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

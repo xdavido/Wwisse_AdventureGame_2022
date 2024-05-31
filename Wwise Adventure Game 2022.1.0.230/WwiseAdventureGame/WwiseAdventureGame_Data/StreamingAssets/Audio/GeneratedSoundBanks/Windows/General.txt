@@ -12,22 +12,59 @@ Event	ID	Name			Wwise Object Path	Notes
 	2325560497	UI_Button_Exit			\UI\Button\UI_Button_Exit	
 	2541270269	Destruction_VolcanicBoulder_Impact			\Destruction\Destruction_VolcanicBoulder_Impact	
 	3474566310	UI_Menu_Select			\UI\Button\UI_Menu_Select	
+	3695342915	Player_WeaponImpact			\Player\Player_WeaponImpact	
 	3749307760	UI_Inventory_Roll			\UI\Inventory\UI_Inventory_Roll	
 	4254124015	Destruction_Container			\Destruction\Destruction_Container	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4064446173	Surface_Type			\Default Work Unit\Surface_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	442447909	Barrel	Surface_Type			
+	582824249	Leaves	Surface_Type			
+	1216965916	Stone	Surface_Type			
+	2058049674	Wood	Surface_Type			
+	2195636714	Dirt	Surface_Type			
+	3098439042	Crate	Surface_Type			
+	4248645337	Grass	Surface_Type			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	116915332	BAS_Crate_Destroy_01	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\BAS_Crate_Destroy_01		89612
-	193000617	Explosion	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Destruction\Volcanic Boulder\Explosion_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Volcanic Boulder\Explosion		768160
-	300395557	BAS_Button_Teleport	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Button_Teleport_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button\BAS_Button_Teleport		345460
-	468448618	BAS_Button_Over	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button\BAS_Button_Over		21272
-	498130531	BAS_Button_Close	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Button_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button\BAS_Button_Close		62532
-	535094082	BAS_Inventory_Open	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Inventory_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Inventory\BAS_Inventory_Open		45400
-	732507026	BAS_Inventory_Close	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Inventory_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Inventory\BAS_Inventory_Close		46656
-	797852534	BAS_Destroy_Rock_01	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\BAS_Destroy_Rock_01		105568
-	880895896	BAS_Button_Open	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Button_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button\BAS_Button_Open		56288
-	893143628	BAS_QuestRoll_Open	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_QuestRoll_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\QuestRoll\BAS_QuestRoll_Open		104510
-	948369034	BAS_Crystals_Destroy	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Destruction\BAS_Crystals_Destroy_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\BAS_Crystals_Destroy		191808
-	1034926875	BAS_Inventory_Scroll	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Inventory_Scroll_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Inventory\BAS_Inventory_Scroll		53988
-	1038571776	BAS_QuestRoll_Close	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_QuestRoll_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\QuestRoll\BAS_QuestRoll_Close		112358
-	1061859901	BAS_Button_Enter	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button\BAS_Button_Enter		117456
+	65687771	BAS_Impact_Axe_SurfaceType_Dirt	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Axe_SurfaceType_Dirt_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Axe\BAS_Impact_Axe_SurfaceType_Dirt		35434
+	79553388	BAS_Impact_Dagger_SurfaceType_Wood	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Wood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Dagger\BAS_Impact_Dagger_SurfaceType_Wood		42234
+	88671696	BAS_Impact_Sword_SurfaceType_Grass	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Sword_SurfaceType_Grass_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Sword\BAS_Impact_Sword_SurfaceType_Grass		72172
+	94353396	BAS_Impact_PickAxe_SurfaceType_Barrel	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_PickAxe_SurfaceType_Barrel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\PickAxe\BAS_Impact_PickAxe_SurfaceType_Barrel		38930
+	111602162	BAS_Impact_Sword_SurfaceType_Stone	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Sword_SurfaceType_Stone_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Sword\BAS_Impact_Sword_SurfaceType_Stone		115352
+	116915332	BAS_Crate_Destroy_01	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\BAS_Crate_Destroy_01		89612
+	122830694	BAS_Impact_Sword_SurfaceType_Dirt	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Sword_SurfaceType_Dirt_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Sword\BAS_Impact_Sword_SurfaceType_Dirt		56934
+	148812791	BAS_Impact_Sword_SurfaceType_Wood	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Sword_SurfaceType_Wood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Sword\BAS_Impact_Sword_SurfaceType_Wood		71900
+	193000617	Explosion	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Destruction\Volcanic Boulder\Explosion_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Volcanic Boulder\Explosion		768160
+	243291866	BAS_Impact_Axe_SurfaceType_Grass	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Axe_SurfaceType_Grass_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Axe\BAS_Impact_Axe_SurfaceType_Grass		116832
+	276317401	BAS_Impact_Axe_SurfaceType_Crate	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Axe_SurfaceType_Crate_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Axe\BAS_Impact_Axe_SurfaceType_Crate		52430
+	300395557	BAS_Button_Teleport	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Button_Teleport_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button\BAS_Button_Teleport		345460
+	468448618	BAS_Button_Over	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button\BAS_Button_Over		21272
+	498130531	BAS_Button_Close	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Button_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button\BAS_Button_Close		62532
+	535094082	BAS_Inventory_Open	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Inventory_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Inventory\BAS_Inventory_Open		45400
+	616523183	BAS_Impact_Sword_SurfaceType_Barrel	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Sword_SurfaceType_Barrel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Sword\BAS_Impact_Sword_SurfaceType_Barrel		91724
+	685664864	BAS_Impact_Dagger_SurfaceType_Barrel	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Barrel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Dagger\BAS_Impact_Dagger_SurfaceType_Barrel		73416
+	722205770	BAS_Impact_Axe_SurfaceType_Leaves	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Axe_SurfaceType_Leaves_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Axe\BAS_Impact_Axe_SurfaceType_Leaves		44120
+	732507026	BAS_Inventory_Close	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Inventory_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Inventory\BAS_Inventory_Close		46656
+	740675491	BAS_Impact_PickAxe_SurfaceType_Crate	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_PickAxe_SurfaceType_Crate_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\PickAxe\BAS_Impact_PickAxe_SurfaceType_Crate		34946
+	781334959	BAS_Impact_Dagger_SurfaceType_Stone	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Stone_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Dagger\BAS_Impact_Dagger_SurfaceType_Stone		25184
+	793947338	BAS_Impact_Dagger_SurfaceType_Grass	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Grass_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Dagger\BAS_Impact_Dagger_SurfaceType_Grass		56040
+	797852534	BAS_Destroy_Rock_01	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\BAS_Destroy_Rock_01		105568
+	821694217	BAS_Impact_Axe_SurfaceType_Stone	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Axe_SurfaceType_Stone_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Axe\BAS_Impact_Axe_SurfaceType_Stone		62442
+	830216414	BAS_Impact_Dagger_SurfaceType_Leaves	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Leaves_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Dagger\BAS_Impact_Dagger_SurfaceType_Leaves		34504
+	880895896	BAS_Button_Open	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Button_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button\BAS_Button_Open		56288
+	893143628	BAS_QuestRoll_Open	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_QuestRoll_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\QuestRoll\BAS_QuestRoll_Open		104510
+	893880258	BAS_Impact_Axe_SurfaceType_Barrel	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Axe_SurfaceType_Barrel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Axe\BAS_Impact_Axe_SurfaceType_Barrel		107642
+	900346468	BAS_Impact_Hammer_SurfaceType_Barrel	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Hammer_SurfaceType_Barrel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Hammer\BAS_Impact_Hammer_SurfaceType_Barrel		100682
+	921222481	BAS_Impact_Hammer_SurfaceType_Crate	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Hammer_SurfaceType_Crate_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Hammer\BAS_Impact_Hammer_SurfaceType_Crate		47008
+	948369034	BAS_Crystals_Destroy	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Destruction\BAS_Crystals_Destroy_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\BAS_Crystals_Destroy		191808
+	967055493	BAS_Impact_Sword_SurfaceType_Leaves	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Sword_SurfaceType_Leaves_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Sword\BAS_Impact_Sword_SurfaceType_Leaves		127072
+	1027317532	BAS_Impact_Dagger_SurfaceType_Crate	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Crate_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Dagger\BAS_Impact_Dagger_SurfaceType_Crate		54176
+	1034926875	BAS_Inventory_Scroll	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Inventory_Scroll_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Inventory\BAS_Inventory_Scroll		53988
+	1038571776	BAS_QuestRoll_Close	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_QuestRoll_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\QuestRoll\BAS_QuestRoll_Close		112358
+	1044601022	BAS_Impact_Dagger_SurfaceType_Dirt	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Dirt_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Dagger\BAS_Impact_Dagger_SurfaceType_Dirt		41194
+	1054368689	BAS_Impact_Sword_SurfaceType_Crate	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Impacts\BAS_Impact_Sword_SurfaceType_Crate_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Sword\BAS_Impact_Sword_SurfaceType_Crate		61830
+	1061859901	BAS_Button_Enter	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button\BAS_Button_Enter		117456
 
