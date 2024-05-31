@@ -42,6 +42,24 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Player_Footstep" ID="{4368E572-B996-4D69-A900-4C89050E5B87}">
+					<ChildrenList>
+						<Action Name="" ID="{E1C20A55-D3B8-4FB1-9DFE-C8E57CC2A1AB}" ShortID="640321512">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RunFootsteps" ID="{5A6042AC-44B2-48E4-B847-2C0142C1D016}" WorkUnitID="{C5DFDDC2-41C7-49B1-9231-13CE4E04A4B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{184053F7-B3FD-4B47-BB45-F4234D0F4B4D}" ShortID="1070282008">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WalkFootsteps" ID="{BC0D3E6A-AC66-42A5-AB00-4C29628F5658}" WorkUnitID="{C5DFDDC2-41C7-49B1-9231-13CE4E04A4B7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

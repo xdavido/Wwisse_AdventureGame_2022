@@ -12,6 +12,9 @@
 						<Switch Name="Leaves" ID="{91DB2898-CC9F-4EEC-82A9-656A6E9F248B}"/>
 						<Switch Name="Stone" ID="{BD39DA0F-7FFF-491A-825B-F54A639260AA}"/>
 						<Switch Name="Wood" ID="{B0CC14AD-0D89-4178-B657-DBA305CE259E}"/>
+						<Switch Name="Sand" ID="{568EDD3F-8BCD-448A-92DF-6FC48E253E31}"/>
+						<Switch Name="Rubble" ID="{BA6C817A-7284-49B8-AA8C-98A72E039966}"/>
+						<Switch Name="Water" ID="{BDE8D34E-34BE-4AE6-9D4B-297AFED38738}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="Player_Weapon_Type" ID="{24F2B9F2-B7C5-433A-82B6-DD2A6751C6B1}">
