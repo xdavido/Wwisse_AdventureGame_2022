@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{934ED007-47E3-BF45-8144-0C9C7AF4439C}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{FC2A8667-CEAD-659D-7AE9-AB8930E41D36}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -1030,7 +1030,7 @@
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="608898761" Type="User" Language="SFX" Hash="{10A35C55-9E83-5AC7-B3BD-4DC76CF75830}">
+		<SoundBank Id="608898761" Type="User" Language="SFX" Hash="{48826F82-E622-AAF6-9553-396F890936DC}">
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
 			<Media>
@@ -1235,7 +1235,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1421251628" Type="User" Language="SFX" Hash="{0F845FBB-56B8-112F-7088-A86384EA81AD}">
+		<SoundBank Id="1421251628" Type="User" Language="SFX" Hash="{6A21CC81-1C63-6406-CF30-520E19518849}">
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
 			<Media>
@@ -1269,7 +1269,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1850388778" Type="User" Language="SFX" Hash="{929E86E9-BFE1-1EC7-03CA-C8B9D8814FFE}">
+		<SoundBank Id="1850388778" Type="User" Language="SFX" Hash="{31C05B6C-8A10-2CE7-72DE-9E16D75BD106}">
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
 			<Media>
@@ -1294,7 +1294,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2482365692" Type="User" Language="SFX" Hash="{099B9334-C7E4-EC7E-7C48-1C0990B85FE9}">
+		<SoundBank Id="2482365692" Type="User" Language="SFX" Hash="{36B6F5E1-768B-DB27-6AB2-74430B4371AA}">
 			<ShortName>PineForest</ShortName>
 			<Path>PineForest.bnk</Path>
 			<Media>
@@ -1314,7 +1314,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3945572659" Type="User" Language="SFX" Hash="{0A9B7517-B9B7-2C81-3C6C-2DCFB7A09220}">
+		<SoundBank Id="3945572659" Type="User" Language="SFX" Hash="{C1878180-2E6B-ACB4-55AF-C7F8040C1935}">
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
 			<Media>
@@ -1367,7 +1367,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4122393694" Type="User" Language="SFX" Hash="{A9C0B913-F2BA-71D9-109F-A88B74C3EACC}">
+		<SoundBank Id="4122393694" Type="User" Language="SFX" Hash="{510A071F-3CB3-ABD1-BDD8-C27C909E2DD0}">
 			<ShortName>Cave</ShortName>
 			<Path>Cave.bnk</Path>
 			<Media>
@@ -1431,5 +1431,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5A465FA3-7AC6-1DC3-346B-4B496D643DAF}</FileHash>
+	<FileHash>{DE171A95-B264-5903-8E00-28B387784DAA}</FileHash>
 </SoundBanksInfo>
