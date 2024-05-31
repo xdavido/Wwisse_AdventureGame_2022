@@ -274,6 +274,9 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="SFX" ID="{C2DAD65B-538D-4EAF-8A32-D7FE122EBE8A}" ShortID="1045073507">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
@@ -420,6 +423,18 @@
 											</BlendTrackList>
 										</BlendContainer>
 										<BlendContainer Name="Ambient_TimeofDayCave" ID="{A988F7A0-CDE7-4E19-92A4-AB174E9E397F}" ShortID="1032958995">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>23</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
@@ -601,6 +616,13 @@
 											</BlendTrackList>
 										</BlendContainer>
 										<BlendContainer Name="Ambient_TimeofDayDungeon" ID="{B504BB74-D92C-46C0-845C-C3B8985F2D01}" ShortID="888118557">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-19</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
@@ -1212,6 +1234,13 @@
 								<Folder Name="Run" ID="{8FD71DFF-FBB6-4DED-91AD-27DA08B6A5EC}" ShortID="663583983">
 									<ChildrenList>
 										<SwitchContainer Name="RunFootsteps" ID="{5A6042AC-44B2-48E4-B847-2C0142C1D016}" ShortID="148878836">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-14</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
@@ -2311,6 +2340,13 @@
 								<Folder Name="Walk" ID="{6FEC176F-055C-4C99-A0B5-23DFDBEB73F3}" ShortID="529490692">
 									<ChildrenList>
 										<SwitchContainer Name="WalkFootsteps" ID="{BC0D3E6A-AC66-42A5-AB00-4C29628F5658}" ShortID="684220022">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
@@ -3390,6 +3426,13 @@
 						<Folder Name="Impacts" ID="{7AEF467F-EC9B-4804-8BF6-66C09762B451}" ShortID="864347405">
 							<ChildrenList>
 								<Sound Name="BAS_hitCrate_001" ID="{B1673E67-A2BD-4A91-9A2F-A5020449B26A}" ShortID="743398597">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
@@ -3412,6 +3455,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Impact_Bump" ID="{13CB2E62-ED6A-49A6-A3A5-AB2A5A64CEFF}" ShortID="151565567">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
@@ -3434,6 +3484,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Impact_Crate_Loud" ID="{B7D1F38C-B527-4D8A-BEAB-FE2BDC33642F}" ShortID="655390885">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
@@ -3456,6 +3513,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="RockImpact" ID="{063F6D3B-701B-4C0D-99B6-A26E5C3D3AA0}" ShortID="545970674">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
@@ -3685,6 +3749,13 @@
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="Dagger" ID="{7A4CF65A-1C41-4B4A-9528-752EE06F2EC6}" ShortID="126741362">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
@@ -3923,6 +3994,13 @@
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="Hammer" ID="{2593AD74-3810-47EF-801C-9E39C9116075}" ShortID="194221263">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
@@ -4006,6 +4084,13 @@
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="PickAxe" ID="{50158291-D951-4882-87EB-3D796F61CF29}" ShortID="982119541">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
@@ -4089,6 +4174,13 @@
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="Sword" ID="{C5418BFA-6A6F-44D4-9E5A-1FC49265A6A1}" ShortID="603931048">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
@@ -4334,7 +4426,17 @@
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>26</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -4403,7 +4505,17 @@
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>36</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -4446,6 +4558,11 @@
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -4483,6 +4600,11 @@
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -4520,6 +4642,11 @@
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -4556,6 +4683,11 @@
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -4689,6 +4821,11 @@
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{FFACE3FA-BB31-14F9-F577-C6866CC34884}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{934ED007-47E3-BF45-8144-0C9C7AF4439C}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -1030,7 +1030,7 @@
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="608898761" Type="User" Language="SFX" Hash="{17E213D3-671A-D7DF-331B-0A8934B43B40}">
+		<SoundBank Id="608898761" Type="User" Language="SFX" Hash="{10A35C55-9E83-5AC7-B3BD-4DC76CF75830}">
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
 			<Media>
@@ -1040,7 +1040,7 @@
 				</File>
 				<File Id="117284545" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient_Emitters\BAS_Lava.wav</ShortName>
-					<CachePath>SFX/Ambient_Emitters/BAS_Lava_2F0720F7.wem</CachePath>
+					<CachePath>SFX/Ambient_Emitters/BAS_Lava_E7C76F74.wem</CachePath>
 				</File>
 				<File Id="585467131" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambient_Background\BAS_amb_dungeon_day_background_loop_01.wav</ShortName>
@@ -1068,24 +1068,113 @@
 				<GameParameter Id="207908541" Name="Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{53AC33F0-CC00-D7C5-C329-D947DAAB70BE}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{BF22D859-5A20-D01B-0D4A-E72F86ECD5C8}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<Custom>
+					<Plugin Id="93084558" Name="Medium (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="178679016" Name="Medium (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="512333705" Name="Medium (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="539701846" Name="Medium (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="592938452" Name="Medium (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="654935719" Name="Medium (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="761292905" Name="Medium (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="833121071" Name="Medium (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="901067729" Name="Medium (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="975817234" Name="Medium (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1020481420" Name="Medium (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="393239870" Name="SFX"/>
 				<Bus Id="1141122171" Name="NO-WORLD"/>
 				<Bus Id="1551306167" Name="UI"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
 			<AuxBusses>
+				<AuxBus Id="243931001" Name="Dungeon_Forge">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="901067729"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="425911480" Name="Dungeon_Library_Statue">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="93084558"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="567469275" Name="Dungeon_PathToForge">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1020481420"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="1156828694" Name="Dungeon_Entrance">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="178679016"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="1941785149" Name="Dungeon_Library">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="833121071"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2026127448" Name="Dungeon_MezzanineRoomEntrance">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="512333705"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2106540524" Name="Dungeon_RoadToCore">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="592938452"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2213850905" Name="Dungeon_Core">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="975817234"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
 				<AuxBus Id="2412664669" Name="Music_Aux"/>
+				<AuxBus Id="3352684520" Name="CaveEntrance">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="539701846"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="4122393694" Name="Cave">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="761292905"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="4158999182" Name="Dungeon_MezzanineRoom">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="654935719"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="207908541" Name="Time_of_Day"/>
@@ -1104,6 +1193,13 @@
 						<State Id="3424056949" Name="Nowhere"/>
 						<State Id="3945572659" Name="Village"/>
 						<State Id="4122393694" Name="Cave"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3545700988" Name="Reverbs">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="768281003" Name="Disable"/>
+						<State Id="2256756024" Name="Enable"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
@@ -1139,7 +1235,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1421251628" Type="User" Language="SFX" Hash="{A4870164-4698-C1A6-571B-A90552513BBF}">
+		<SoundBank Id="1421251628" Type="User" Language="SFX" Hash="{0F845FBB-56B8-112F-7088-A86384EA81AD}">
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
 			<Media>
@@ -1173,7 +1269,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1850388778" Type="User" Language="SFX" Hash="{B016E4CA-2BB2-A6F0-42FA-33D2FF97F883}">
+		<SoundBank Id="1850388778" Type="User" Language="SFX" Hash="{929E86E9-BFE1-1EC7-03CA-C8B9D8814FFE}">
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
 			<Media>
@@ -1198,7 +1294,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2482365692" Type="User" Language="SFX" Hash="{82865768-3CA7-5CD3-DB3D-F2DFF9913F99}">
+		<SoundBank Id="2482365692" Type="User" Language="SFX" Hash="{099B9334-C7E4-EC7E-7C48-1C0990B85FE9}">
 			<ShortName>PineForest</ShortName>
 			<Path>PineForest.bnk</Path>
 			<Media>
@@ -1218,7 +1314,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3945572659" Type="User" Language="SFX" Hash="{F8106600-C3FA-D9E2-1BAF-F54266F6BA15}">
+		<SoundBank Id="3945572659" Type="User" Language="SFX" Hash="{0A9B7517-B9B7-2C81-3C6C-2DCFB7A09220}">
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
 			<Media>
@@ -1271,7 +1367,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4122393694" Type="User" Language="SFX" Hash="{06EE18BB-2E02-9F59-E5B1-8FEFE616D720}">
+		<SoundBank Id="4122393694" Type="User" Language="SFX" Hash="{A9C0B913-F2BA-71D9-109F-A88B74C3EACC}">
 			<ShortName>Cave</ShortName>
 			<Path>Cave.bnk</Path>
 			<Media>
@@ -1335,5 +1431,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F8B1A335-1B2B-34B5-4B24-61EDA92D20FD}</FileHash>
+	<FileHash>{5A465FA3-7AC6-1DC3-346B-4B496D643DAF}</FileHash>
 </SoundBanksInfo>

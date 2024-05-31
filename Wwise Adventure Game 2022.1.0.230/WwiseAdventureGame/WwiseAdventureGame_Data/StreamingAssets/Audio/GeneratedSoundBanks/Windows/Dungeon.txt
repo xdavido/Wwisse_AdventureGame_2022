@@ -7,7 +7,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	77345718	BAS_Torch	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Ambient_Emitters\BAS_Torch_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient_Emitters\BAS_Torch		448524
-	117284545	BAS_Lava	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Ambient_Emitters\BAS_Lava_2F0720F7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient_Emitters\BAS_Lava		1228944
-	585467131	BAS_amb_dungeon_day_background_loop_01	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Ambient_Background\BAS_amb_dungeon_day_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient_Background\Ambient_Sounds\Ambient_TimeofDayDungeon\AmbienceDungeon\BAS_amb_dungeon_day_background_loop_01		24641632
+	77345718	BAS_Torch	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Ambient_Emitters\BAS_Torch_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient_Emitters\BAS_Torch		448524
+	117284545	BAS_Lava	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Ambient_Emitters\BAS_Lava_E7C76F74.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient_Emitters\BAS_Lava		1228944
+	585467131	BAS_amb_dungeon_day_background_loop_01	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Ambient_Background\BAS_amb_dungeon_day_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient_Background\Ambient_Sounds\Ambient_TimeofDayDungeon\AmbienceDungeon\BAS_amb_dungeon_day_background_loop_01		24641632
 

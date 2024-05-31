@@ -1,5 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
-	3408705206	Ambient_Region_Desert			\Ambient\Ambient_Region_Desert	
+	3408705206	Ambient_Region_Desert			\Ambient\AmbientBackground\Ambient_Region_Desert	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	

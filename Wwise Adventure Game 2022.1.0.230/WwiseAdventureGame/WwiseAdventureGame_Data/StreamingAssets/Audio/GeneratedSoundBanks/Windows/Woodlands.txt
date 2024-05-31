@@ -6,7 +6,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	115829845	BAS_Waterfall	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Ambient_Emitters\BAS_Waterfall_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient_Emitters\BAS_Waterfall		768096
-	653666381	amb_forest_night_background_loop_04	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Ambient_Background\amb_forest_night_background_loop_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient_Background\Ambient_Sounds\Ambient_TimeofDayForest\AmbienceNightForest\amb_forest_night_background_loop_04		3919928
-	987783520	BAS_amb_forest_day_background_loop_01	D:\Github\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Ambient_Background\BAS_amb_forest_day_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient_Background\Ambient_Sounds\Ambient_TimeofDayForest\AmbienceDayForest\BAS_amb_forest_day_background_loop_01		27990112
+	115829845	BAS_Waterfall	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Ambient_Emitters\BAS_Waterfall_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient_Emitters\BAS_Waterfall		768096
+	653666381	amb_forest_night_background_loop_04	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Ambient_Background\amb_forest_night_background_loop_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient_Background\Ambient_Sounds\Ambient_TimeofDayForest\AmbienceNightForest\amb_forest_night_background_loop_04		3919928
+	987783520	BAS_amb_forest_day_background_loop_01	C:\Users\PC\Documents\GitHub\Wwisse_AdventureGame_2024\AdventureGameWwise\.cache\Windows\SFX\Ambient_Background\BAS_amb_forest_day_background_loop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambient_Background\Ambient_Sounds\Ambient_TimeofDayForest\AmbienceDayForest\BAS_amb_forest_day_background_loop_01		27990112
 
