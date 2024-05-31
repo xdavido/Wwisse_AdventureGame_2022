@@ -430,6 +430,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="BAS_amb_cave_background_LP" ID="{B542A2F9-23A7-4AB0-808A-1C8D43A98341}" ShortID="185578080">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
@@ -618,6 +621,9 @@
 													</ReferenceList>
 													<ChildrenList>
 														<Sound Name="BAS_amb_dungeon_day_background_loop_01" ID="{24B8240D-236D-4B86-B0BF-62435FED8720}" ShortID="302125329">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
@@ -808,6 +814,9 @@
 													</ReferenceList>
 													<ChildrenList>
 														<Sound Name="BAS_amb_pineforest_night_background_loop_01" ID="{C8813B9E-BEA5-40DA-ADB1-AE670D348944}" ShortID="816750721">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
@@ -4317,6 +4326,558 @@
 										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Ambient_Emitters" ID="{BD6A03A8-AC91-4D52-8BAC-7CB0495CF389}" ShortID="648220620">
+							<ChildrenList>
+								<Sound Name="BAS_Crystal_Ringing" ID="{9F6B44D1-EF3A-4116-AA5C-7B476F20286C}" ShortID="649251560">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Basic_Attenuation" ID="{EFC5968B-EB7B-4334-A62B-8A826EB58902}" WorkUnitID="{641E64FA-90EC-4A3A-9513-555030AD66F9}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Crystal_Ringing" ID="{F273570A-96ED-4146-A1B0-60663C62E6A6}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.2"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.2"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-16.1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Emitters\BAS_Crystal_Ringing.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="413481185"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Crystal_Ringing" ID="{F273570A-96ED-4146-A1B0-60663C62E6A6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_ForestBirds" ID="{8CD55C0F-BADF-4BC4-9CF1-C9ABE9618291}" ShortID="433579547">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Basic_Attenuation" ID="{EFC5968B-EB7B-4334-A62B-8A826EB58902}" WorkUnitID="{641E64FA-90EC-4A3A-9513-555030AD66F9}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_ForestBirds" ID="{8298A028-2BF1-4120-8168-5E256963AB21}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Emitters\BAS_ForestBirds.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="508394891"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_ForestBirds" ID="{8298A028-2BF1-4120-8168-5E256963AB21}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Lava" ID="{C5F20234-E45A-42AF-8DB9-E005ECCABB9B}" ShortID="108202716">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Basic_Attenuation" ID="{EFC5968B-EB7B-4334-A62B-8A826EB58902}" WorkUnitID="{641E64FA-90EC-4A3A-9513-555030AD66F9}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Lava" ID="{2DCFF5A9-BF0E-41A6-8820-E348A8DCF32C}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.601047498645476"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.60279332972127"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.246583589187888"/>
+												<Property Name="LoopEnd" Type="Real64" Value="13.4233941364156"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-14.3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Emitters\BAS_Lava.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="117284545"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Lava" ID="{2DCFF5A9-BF0E-41A6-8820-E348A8DCF32C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Torch" ID="{D9E219B7-A33B-4145-8843-F59F0E9894EA}" ShortID="407753460">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Basic_Attenuation" ID="{EFC5968B-EB7B-4334-A62B-8A826EB58902}" WorkUnitID="{641E64FA-90EC-4A3A-9513-555030AD66F9}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Torch" ID="{DB487C92-E507-4313-96B0-35B2EFC2AFEF}">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>1.4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Emitters\BAS_Torch.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="77345718"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Torch" ID="{DB487C92-E507-4313-96B0-35B2EFC2AFEF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Waterfall" ID="{851EAEA1-4742-4B54-BA25-D30B766E31C5}" ShortID="723017250">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Basic_Attenuation" ID="{EFC5968B-EB7B-4334-A62B-8A826EB58902}" WorkUnitID="{641E64FA-90EC-4A3A-9513-555030AD66F9}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Waterfall" ID="{FBBF1403-462C-427D-AC18-2412A3862017}">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-10.8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Emitters\BAS_Waterfall.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="115829845"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Waterfall" ID="{FBBF1403-462C-427D-AC18-2412A3862017}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Water_River" ID="{9B1F0AD2-5E68-4CC0-8853-E098B1C93492}" ShortID="670456161">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Basic_Attenuation" ID="{EFC5968B-EB7B-4334-A62B-8A826EB58902}" WorkUnitID="{641E64FA-90EC-4A3A-9513-555030AD66F9}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Water_River" ID="{43CB448F-6593-42C2-84B7-9AFA7F883EA5}">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-10.2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Emitters\BAS_Water_River.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="915847835"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Water_River" ID="{43CB448F-6593-42C2-84B7-9AFA7F883EA5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="WindMill" ID="{AD097705-01BD-4868-8045-DC20190F2CB8}" ShortID="750841023">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Basic_Attenuation" ID="{EFC5968B-EB7B-4334-A62B-8A826EB58902}" WorkUnitID="{641E64FA-90EC-4A3A-9513-555030AD66F9}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="BAS_WindMillBlade_01" ID="{F5A78861-2F65-48F3-B1F6-D240816D9732}" ShortID="770411377">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Basic_Attenuation" ID="{EFC5968B-EB7B-4334-A62B-8A826EB58902}" WorkUnitID="{641E64FA-90EC-4A3A-9513-555030AD66F9}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_WindMillBlade_01" ID="{47D47EE6-DB52-42B5-BC99-C59CE14AF938}">
+													<PropertyList>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>-6.9</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Ambient_Emitters\BAS_WindMillBlade_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="211829005"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_WindMillBlade_01" ID="{47D47EE6-DB52-42B5-BC99-C59CE14AF938}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_WindMillBlade_02" ID="{DC595F21-2283-486D-9ED7-00FEEF37A022}" ShortID="1038784475">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Basic_Attenuation" ID="{EFC5968B-EB7B-4334-A62B-8A826EB58902}" WorkUnitID="{641E64FA-90EC-4A3A-9513-555030AD66F9}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_WindMillBlade_02" ID="{A3419982-77F0-4F2C-AFC7-7524BCBA5956}">
+													<PropertyList>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>-5.1</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Ambient_Emitters\BAS_WindMillBlade_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="661955852"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_WindMillBlade_02" ID="{A3419982-77F0-4F2C-AFC7-7524BCBA5956}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_WindMillBlade_03" ID="{38D9FAC9-75D0-4BDC-BFD6-9297A296304F}" ShortID="81271080">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Basic_Attenuation" ID="{EFC5968B-EB7B-4334-A62B-8A826EB58902}" WorkUnitID="{641E64FA-90EC-4A3A-9513-555030AD66F9}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_WindMillBlade_03" ID="{3B1FCA66-58B7-4D86-AB29-422EC29A2490}">
+													<PropertyList>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>-5.2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Ambient_Emitters\BAS_WindMillBlade_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="7714672"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_WindMillBlade_03" ID="{3B1FCA66-58B7-4D86-AB29-422EC29A2490}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{EB63233F-02A9-4206-B23E-5BBA48246B01}"/>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="WaterDrops" ID="{FB0C7D02-B19B-40E6-A6A1-017D7DB3FD80}" ShortID="800781880">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Basic_Attenuation" ID="{EFC5968B-EB7B-4334-A62B-8A826EB58902}" WorkUnitID="{641E64FA-90EC-4A3A-9513-555030AD66F9}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="BAS_WaterDrops_01" ID="{BC1BC17B-6126-46C8-B10B-CCFECE2AE6E4}" ShortID="1013413327">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Basic_Attenuation" ID="{EFC5968B-EB7B-4334-A62B-8A826EB58902}" WorkUnitID="{641E64FA-90EC-4A3A-9513-555030AD66F9}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_WaterDrops_01" ID="{6E995B4F-42F1-40A3-A10E-D1829016A462}">
+													<Language>SFX</Language>
+													<AudioFile>Ambient_Emitters\BAS_WaterDrops_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="959688454"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_WaterDrops_01" ID="{6E995B4F-42F1-40A3-A10E-D1829016A462}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_WaterDrops_02" ID="{222E8D16-04BA-4B31-9124-4F42A9E53E4A}" ShortID="370839990">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Basic_Attenuation" ID="{EFC5968B-EB7B-4334-A62B-8A826EB58902}" WorkUnitID="{641E64FA-90EC-4A3A-9513-555030AD66F9}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_WaterDrops_02" ID="{5433214C-5345-4F54-950C-2A9861965018}">
+													<Language>SFX</Language>
+													<AudioFile>Ambient_Emitters\BAS_WaterDrops_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="9766140"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_WaterDrops_02" ID="{5433214C-5345-4F54-950C-2A9861965018}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_WaterDrops_03" ID="{4C3B11E6-5A7A-40B8-B42B-D866E6DA06FD}" ShortID="731972743">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Basic_Attenuation" ID="{EFC5968B-EB7B-4334-A62B-8A826EB58902}" WorkUnitID="{641E64FA-90EC-4A3A-9513-555030AD66F9}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_WaterDrops_03" ID="{D4DE4AC8-9F73-4BA4-86B5-C74686A893DD}">
+													<Language>SFX</Language>
+													<AudioFile>Ambient_Emitters\BAS_WaterDrops_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="325652452"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_WaterDrops_03" ID="{D4DE4AC8-9F73-4BA4-86B5-C74686A893DD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_WaterDrops_04" ID="{5E8BF83E-7A42-482D-9744-35DA87D4BB8A}" ShortID="665837071">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Basic_Attenuation" ID="{EFC5968B-EB7B-4334-A62B-8A826EB58902}" WorkUnitID="{641E64FA-90EC-4A3A-9513-555030AD66F9}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_WaterDrops_04" ID="{A7A7D172-17D0-4128-B366-85E4B115FC40}">
+													<Language>SFX</Language>
+													<AudioFile>Ambient_Emitters\BAS_WaterDrops_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="619209397"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_WaterDrops_04" ID="{A7A7D172-17D0-4128-B366-85E4B115FC40}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_WaterDrops_05" ID="{FD898AE3-0DC5-47C0-8C2C-C5CA21715A8C}" ShortID="999968770">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Basic_Attenuation" ID="{EFC5968B-EB7B-4334-A62B-8A826EB58902}" WorkUnitID="{641E64FA-90EC-4A3A-9513-555030AD66F9}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_WaterDrops_05" ID="{C6F3E63E-B6FA-404E-8000-47FDC0537F22}">
+													<Language>SFX</Language>
+													<AudioFile>Ambient_Emitters\BAS_WaterDrops_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="769746034"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_WaterDrops_05" ID="{C6F3E63E-B6FA-404E-8000-47FDC0537F22}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BAS_WaterDrops_06" ID="{5A02765C-04B7-40D7-9D08-06E731188AB7}" ShortID="527426494">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Basic_Attenuation" ID="{EFC5968B-EB7B-4334-A62B-8A826EB58902}" WorkUnitID="{641E64FA-90EC-4A3A-9513-555030AD66F9}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{066C9E46-3F2B-4666-880A-02E9E58A3F13}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{09C45AAA-2CA3-41BB-B48B-5273C11F4ACD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BAS_WaterDrops_06" ID="{ABE3285B-F692-4899-9CF5-E7817B97CCE0}">
+													<Language>SFX</Language>
+													<AudioFile>Ambient_Emitters\BAS_WaterDrops_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="94628334"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BAS_WaterDrops_06" ID="{ABE3285B-F692-4899-9CF5-E7817B97CCE0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

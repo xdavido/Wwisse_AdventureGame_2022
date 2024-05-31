@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="Cave" ID="{06323795-DB5E-42D5-9638-2A7D97EB0144}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_WaterDrop" ID="{54726682-F8CD-4541-9C41-96310F39856E}" WorkUnitID="{F7C5248A-141F-4A6C-9A02-1696713C7301}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Crystal_Hum" ID="{4E772762-3E54-4573-AB54-5692DF925044}" WorkUnitID="{F7C5248A-141F-4A6C-9A02-1696713C7301}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient_Region_Cave" ID="{D6EB785C-31B9-4F8A-8464-458F04302E9A}" WorkUnitID="{F7C5248A-141F-4A6C-9A02-1696713C7301}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -20,6 +22,8 @@
 				<SoundBank Name="Dungeon" ID="{00AD9800-29C2-479E-88A1-04C5AB7E2E81}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Ambient_Region_Dungeon" ID="{54312251-4F9F-42CB-8FE8-E1F6D1D849DB}" WorkUnitID="{F7C5248A-141F-4A6C-9A02-1696713C7301}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Lava" ID="{D33DE3B0-C55F-45BA-A5B0-806761D485AF}" WorkUnitID="{F7C5248A-141F-4A6C-9A02-1696713C7301}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Torch" ID="{16398878-B08B-4673-87EC-CEACF29DC5F2}" WorkUnitID="{F7C5248A-141F-4A6C-9A02-1696713C7301}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -34,6 +38,8 @@
 				<SoundBank Name="Village" ID="{624CD16E-6CFD-4114-88BB-5180A0EB4687}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Ambient_Region_Village" ID="{D3B57587-7F21-4286-9705-F73752C515C2}" WorkUnitID="{F7C5248A-141F-4A6C-9A02-1696713C7301}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_River" ID="{7123C576-F154-4C04-B534-4BFF5A6C4805}" WorkUnitID="{F7C5248A-141F-4A6C-9A02-1696713C7301}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Windmill" ID="{265E8708-AB4B-4D98-BEEF-9CFB8C0611C3}" WorkUnitID="{F7C5248A-141F-4A6C-9A02-1696713C7301}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -41,6 +47,7 @@
 				<SoundBank Name="Woodlands" ID="{35D5E9A7-43EA-4C11-BA7B-62F1ECE853D8}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Ambient_Region_Woodlands" ID="{9B40C11B-5207-4077-A917-445CE29DF3DD}" WorkUnitID="{F7C5248A-141F-4A6C-9A02-1696713C7301}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Waterfall" ID="{D9E58C2C-15F8-4C8A-AC13-6C8944204C3E}" WorkUnitID="{F7C5248A-141F-4A6C-9A02-1696713C7301}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
