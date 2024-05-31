@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../../../../../../../../Documents/WwiseProjects/AdventureGameWwise</ProjectRoot>
+		<SourceFilesRoot>../../../../../../../../Documents/WwiseProjects/AdventureGameWwise/.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../../../../../Documents/WwiseProjects/AdventureGameWwise/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{1136ABF1-0DF5-8D48-B67C-F210250204C9}">
+			<ShortName>General</ShortName>
+			<Path>General.bnk</Path>
+			<Media>
+				<File Id="300395557" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\BAS_Button_Teleport.wav</ShortName>
+					<CachePath>SFX/UI/BAS_Button_Teleport_10C4C929.wem</CachePath>
+				</File>
+				<File Id="468448618" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\BAS_Button_Over.wav</ShortName>
+					<CachePath>SFX/UI/BAS_Button_Over_10C4C929.wem</CachePath>
+				</File>
+				<File Id="498130531" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\BAS_Button_Close.wav</ShortName>
+					<CachePath>SFX/UI/BAS_Button_Close_10C4C929.wem</CachePath>
+				</File>
+				<File Id="535094082" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\BAS_Inventory_Open.wav</ShortName>
+					<CachePath>SFX/UI/BAS_Inventory_Open_10C4C929.wem</CachePath>
+				</File>
+				<File Id="732507026" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\BAS_Inventory_Close.wav</ShortName>
+					<CachePath>SFX/UI/BAS_Inventory_Close_10C4C929.wem</CachePath>
+				</File>
+				<File Id="880895896" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\BAS_Button_Open.wav</ShortName>
+					<CachePath>SFX/UI/BAS_Button_Open_10C4C929.wem</CachePath>
+				</File>
+				<File Id="893143628" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\BAS_QuestRoll_Open.wav</ShortName>
+					<CachePath>SFX/UI/BAS_QuestRoll_Open_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1034926875" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\BAS_Inventory_Scroll.wav</ShortName>
+					<CachePath>SFX/UI/BAS_Inventory_Scroll_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1038571776" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\BAS_QuestRoll_Close.wav</ShortName>
+					<CachePath>SFX/UI/BAS_QuestRoll_Close_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1061859901" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\BAS_Button_Enter.wav</ShortName>
+					<CachePath>SFX/UI/BAS_Button_Enter_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="156563189" Name="UI_Button_Down">
+					<MediaRefs>
+						<MediaRef Id="468448618"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="18309885" Name="UI_Button_Enter">
+					<MediaRefs>
+						<MediaRef Id="1061859901"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2325560497" Name="UI_Button_Exit">
+					<MediaRefs>
+						<MediaRef Id="498130531"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="15662850" Name="UI_Button_Up">
+					<MediaRefs>
+						<MediaRef Id="468448618"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2278290679" Name="UI_Inventory_Close">
+					<MediaRefs>
+						<MediaRef Id="732507026"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2199611969" Name="UI_Inventory_Open">
+					<MediaRefs>
+						<MediaRef Id="535094082"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3749307760" Name="UI_Inventory_Roll">
+					<MediaRefs>
+						<MediaRef Id="1034926875"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3474566310" Name="UI_Menu_Select">
+					<MediaRefs>
+						<MediaRef Id="880895896"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="750089663" Name="UI_Menu_Teleport">
+					<MediaRefs>
+						<MediaRef Id="300395557"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="808893336" Name="UI_QuestRoll_Close">
+					<MediaRefs>
+						<MediaRef Id="1038571776"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="949395292" Name="UI_QuestRoll_Open">
+					<MediaRefs>
+						<MediaRef Id="893143628"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D9A1E40B-E084-6D38-38DA-DC2B212EF099}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,25 @@
+Event	ID	Name			Wwise Object Path	Notes
+	15662850	UI_Button_Up			\UI\Button\UI_Button_Up	
+	18309885	UI_Button_Enter			\UI\Button\UI_Button_Enter	
+	156563189	UI_Button_Down			\UI\Button\UI_Button_Down	
+	750089663	UI_Menu_Teleport			\UI\Button\UI_Menu_Teleport	
+	808893336	UI_QuestRoll_Close			\UI\QuestRoll\UI_QuestRoll_Close	
+	949395292	UI_QuestRoll_Open			\UI\QuestRoll\UI_QuestRoll_Open	
+	2199611969	UI_Inventory_Open			\UI\Inventory\UI_Inventory_Open	
+	2278290679	UI_Inventory_Close			\UI\Inventory\UI_Inventory_Close	
+	2325560497	UI_Button_Exit			\UI\Button\UI_Button_Exit	
+	3474566310	UI_Menu_Select			\UI\Button\UI_Menu_Select	
+	3749307760	UI_Inventory_Roll			\UI\Inventory\UI_Inventory_Roll	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	300395557	BAS_Button_Teleport	C:\Users\joane\Documents\WwiseProjects\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Button_Teleport_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button\BAS_Button_Teleport		345460
+	468448618	BAS_Button_Over	C:\Users\joane\Documents\WwiseProjects\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button\BAS_Button_Over		21272
+	498130531	BAS_Button_Close	C:\Users\joane\Documents\WwiseProjects\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Button_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button\BAS_Button_Close		62532
+	535094082	BAS_Inventory_Open	C:\Users\joane\Documents\WwiseProjects\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Inventory_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Inventory\BAS_Inventory_Open		45400
+	732507026	BAS_Inventory_Close	C:\Users\joane\Documents\WwiseProjects\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Inventory_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Inventory\BAS_Inventory_Close		46656
+	880895896	BAS_Button_Open	C:\Users\joane\Documents\WwiseProjects\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Button_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button\BAS_Button_Open		56288
+	893143628	BAS_QuestRoll_Open	C:\Users\joane\Documents\WwiseProjects\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_QuestRoll_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\QuestRoll\BAS_QuestRoll_Open		104510
+	1034926875	BAS_Inventory_Scroll	C:\Users\joane\Documents\WwiseProjects\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Inventory_Scroll_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Inventory\BAS_Inventory_Scroll		53988
+	1038571776	BAS_QuestRoll_Close	C:\Users\joane\Documents\WwiseProjects\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_QuestRoll_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\QuestRoll\BAS_QuestRoll_Close		112358
+	1061859901	BAS_Button_Enter	C:\Users\joane\Documents\WwiseProjects\AdventureGameWwise\.cache\Windows\SFX\UI\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button\BAS_Button_Enter		117456
+
